@@ -24,7 +24,7 @@ public class countingSort{
 				else
 					break;
 			}
-			output[i] = count;                        
+			output[i] = count;                         
 		}
 		System.out.println(Arrays.toString(output).replace("[","").replace("]","").replace(",",""));
 	}
