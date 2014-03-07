@@ -20,7 +20,7 @@ public class countingSort{
 				if(number[j] == i){
 					count++;
 					j++;
-				}  
+				}     
 				else
 					break;
 			}
