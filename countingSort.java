@@ -10,7 +10,7 @@ public class countingSort{
  			word[i] = myScan.nextLine();
  			String[] temp = word[i].split(" "); 
  			number[i] = Integer.valueOf(temp[0]);
-		}  
+		}    
 		Arrays.sort(number);
 		int[] output   = new int[100];
 		int j=0;
