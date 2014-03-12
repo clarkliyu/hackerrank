@@ -1,4 +1,4 @@
-import java.util.*;                                                                
+import java.util.*;                                                                 
 
 public class countingSort{
 	public static void main(String[] args){
@@ -8,7 +8,7 @@ public class countingSort{
 		String[] word = new String[size];
  		for (int i=0; i<size; i++){
  			word[i] = myScan.nextLine();
- 			String[] temp = word[i].split(" ");
+ 			String[] temp = word[i].split(" "); 
  			number[i] = Integer.valueOf(temp[0]);
 		}
 		Arrays.sort(number);
