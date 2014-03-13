@@ -12,7 +12,7 @@ public class countingSort{
  			number[i] = Integer.valueOf(temp[0]);
 		}
 		Arrays.sort(number);
-		int[] output  = new int[100];
+		int[] output   = new int[100];
 		int j=0;
 		int count =0; 
 		for (int i=0; i<100; i++){
