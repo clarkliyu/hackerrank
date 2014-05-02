@@ -14,7 +14,7 @@ public class countingSort{
 		Arrays.sort(number);
 		int[] output = new int[100];
 		int j=0;
-		int count =0;
+		int count =0; 
 		for (int i=0; i<100; i++){
 			while(j<size){
 				if(number[j] == i){
