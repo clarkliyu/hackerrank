@@ -7,7 +7,7 @@ public class quickSort{
     	int mid = partition(ar, start, end);
     	quickSort(ar, start, mid);
     	quickSort(ar, mid+1, end);
-
+    	
     }   
  	
     static int partition(int[] ar, int start, int end) {
@@ -49,6 +49,5 @@ public class quickSort{
             ar[i]=in.nextInt(); 
         }
         quickSort(ar, 0, n);
-        printArray(ar);
     }   
 }
